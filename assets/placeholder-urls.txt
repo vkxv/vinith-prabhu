@@ -1,0 +1,52 @@
+# Project Image URLs - High-Quality Cyberpunk Placeholder Images
+
+# These URLs link directly to unique placeholder images with cyberpunk/futuristic themes
+# Save each as the corresponding project1.jpg, project2.jpg, etc. in your assets folder
+
+# Profile Image (professional headshot with slight futuristic filter)
+https://this-person-does-not-exist.com/img/avatar-gen11c5c1e1b73ee66a9a671e5d8badfaee.jpg
+
+# Project 1 - Neural Interface Visualization
+https://images.unsplash.com/photo-1550745165-9bc0b252726f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=450&ixid=MnwxfDB8MXxyYW5kb218MHx8YnJhaW4sdGVjaG5vbG9neSxuZW9ufHx8fHx8MTY4MDEyMzQ1Ng&ixlib=rb-4.0.3&q=80&w=800
+
+# Project 2 - Quantum Encryption Messenger
+https://images.unsplash.com/photo-1550745165-9bc0b252726f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=450&ixid=MnwxfDB8MXxyYW5kb218MHx8ZW5jcnlwdGlvbixjb2RlLGN5YmVycHVua3x8fHx8fDE2ODAxMjM1NjU&ixlib=rb-4.0.3&q=80&w=800
+
+# Project 3 - AR Code Architect
+https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=450&ixid=MnwxfDB8MXxyYW5kb218MHx8YXVnbWVudGVkLHJlYWxpdHksaG9sb2dyYW18fHx8fHwxNjgwMTIzNjIy&ixlib=rb-4.0.3&q=80&w=800
+
+# Project 4 - Cyber Threat Visualizer
+https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=450&ixid=MnwxfDB8MXxyYW5kb218MHx8bmV0d29yayxzZWN1cml0eSxjeWJlcnx8fHx8fDE2ODAxMjM2ODc&ixlib=rb-4.0.3&q=80&w=800
+
+# Project 5 - Neurosynth Music Engine
+https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=450&ixid=MnwxfDB8MXxyYW5kb218MHx8bXVzaWMsc3ludGhlc2l6ZXIsZGlnaXRhbHx8fHx8fDE2ODAxMjM3Mzg&ixlib=rb-4.0.3&q=80&w=800
+
+# Project 6 - Nexus Identity Protocol
+https://images.unsplash.com/photo-1639322537228-f710d846310a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=450&ixid=MnwxfDB8MXxyYW5kb218MHx8YmxvY2tjaGFpbixpZGVudGl0eSxkaWdpdGFsfHx8fHx8MTY4MDEyMzgxMQ&ixlib=rb-4.0.3&q=80&w=800
+
+# Project 7 - Urban Neural Network
+https://images.unsplash.com/photo-1515255384510-23e8b6a6ca3c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=450&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2l0eSxmdXR1cmlzdGljLG5pZ2h0fHx8fHx8MTY4MDEyMzg2NA&ixlib=rb-4.0.3&q=80&w=800
+
+# Project 8 - Neural Home OS
+https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=450&ixid=MnwxfDB8MXxyYW5kb218MHx8c21hcnQsaG9tZSxhdXRvbWF0aW9ufHx8fHx8MTY4MDEyMzkxNA&ixlib=rb-4.0.3&q=80&w=800
+
+# Fallback options (cyberpunk/tech themed placeholders)
+# Replace any of the above with these if they don't work
+
+# Fallback 1 - Cyberpunk City
+https://images.unsplash.com/photo-1573455494060-c5595004fb6c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=450&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3liZXJwdW5rLG5lb24sZnV0dXJpc3RpY3x8fHx8fDE2ODAxMjQwMDQ&ixlib=rb-4.0.3&q=80&w=800
+
+# Fallback 2 - Tech Circuit
+https://images.unsplash.com/photo-1518770660439-4636190af475?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=450&ixid=MnwxfDB8MXxyYW5kb218MHx8dGVjaG5vbG9neSxjaXJjdWl0LGRpZ2l0YWx8fHx8fHwxNjgwMTI0MDU0&ixlib=rb-4.0.3&q=80&w=800
+
+# Fallback 3 - Data Visualization
+https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=450&ixid=MnwxfDB8MXxyYW5kb218MHx8ZGF0YSx2aXN1YWxpemF0aW9uLGZ1dHVyaXN0aWN8fHx8fHwxNjgwMTI0MTA2&ixlib=rb-4.0.3&q=80&w=800
+
+# Noise Texture (for background effect)
+https://www.transparenttextures.com/patterns/noise-pattern.png
+
+# Grid Background
+https://www.transparenttextures.com/patterns/carbon-fibre.png
+
+# Alternative method: Use placeholder.com
+# Example: https://via.placeholder.com/800x450/0A0A0F/00A8FF?text=Project+1 

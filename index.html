@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintih Prabhu | Tech Virtuoso</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Updated Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts - Cyberpunk style -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Noise overlay for texture -->
+    <div class="noise-overlay"></div>
+    
+    <!-- 3D Background Canvas -->
+    <canvas id="bg-canvas"></canvas>
+    
+    <!-- Loading screen animation -->
+    <div class="loading-screen">
+        <div class="loading-content">
+            <h2 class="glitch-text" data-text="INITIALIZING">INITIALIZING</h2>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <p class="loading-percentage">0%</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav-container">
+        <div class="logo glitch-text" data-text="VP">VP</div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link active">HOME</a>
+            <a href="#about" class="nav-link">ABOUT</a>
+            <a href="#projects" class="nav-link">PROJECTS</a>
+            <a href="#contact" class="nav-link">CONTACT</a>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/_.vxnxth.27_" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/VinithPrabhu_" class="social-icon" target="_blank"><i class="fab fa-x-twitter"></i></a>
+            <a href="http://discordapp.com/users/1071433585564860586" class="social-icon" target="_blank"><i class="fab fa-discord"></i></a>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="section hero-section">
+            <!-- Matrix background effect -->
+            <canvas id="matrix-canvas" class="background-matrix"></canvas>
+
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="glitch-title" data-text="VINTIH PRABHU">VINTIH PRABHU</h1>
+                    <p class="cyber-subtitle">FULL-STACK DEVELOPER | DARKWEB ONION SITE DEVELOPER | TECH INNOVATOR | HACKER</p>
+                    
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">VIEW PROJECTS</a>
+                        <a href="#contact" class="btn btn-secondary">CONTACT ME</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2 class="section-title" data-text="ABOUT ME">ABOUT ME</h2>
+                <div class="about-content">
+                    <div class="profile-image-container">
+                        <div class="profile-image">
+                            <!-- Profile image with futuristic frame -->
+                            <img src="assets/img/pfp.png" alt="Vintih Prabhu">
+                            <div class="profile-frame"></div>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>Elite developer with expertise in Python, C++, JavaScript, React and more. I've worked with industry giants like Google and Apple, developing cutting-edge solutions and pushing technological boundaries. Specialist in creating secure darkweb onion sites and encryption systems.</p>
+                        <p>My approach combines technical excellence with innovative thinking, allowing me to tackle complex challenges and deliver exceptional results with maximum security and anonymity.</p>
+                        
+                        <div class="tech-stack">
+                            <h3>TECH STACK</h3>
+                            <div class="tech-stack-items">
+                                <div class="tech-item">
+                                    <i class="fab fa-python"></i>
+                                    <span>Python</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fab fa-js"></i>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fab fa-react"></i>
+                                    <span>React</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fas fa-code"></i>
+                                    <span>C++</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fab fa-node-js"></i>
+                                    <span>Node.js</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fas fa-server"></i>
+                                    <span>DevOps</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span>Tor Development</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section" style="display: block !important; visibility: visible !important; opacity: 1 !important; z-index: 10;">
+            <div class="container">
+                <h2 class="section-title" data-text="PROJECTS">PROJECTS</h2>
+                <div class="projects-grid" style="display: grid !important; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)) !important; gap: 2rem; visibility: visible !important; opacity: 1 !important;">
+                    <!-- Project Card 1 -->
+                    <div class="project-card" style="display: block !important; visibility: visible !important; opacity: 1 !important;">
+                        <div class="project-image" style="display: block !important;">
+                            <img src="assets/img/project1.jpg" alt="Neural Interface Visualization" style="display: block !important; width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="project-content" style="display: block !important;">
+                            <div class="project-header" style="display: flex !important;">
+                                <h3 class="project-title" style="font-weight: 700; color: white;">NEURAL INTERFACE VISUALIZATION</h3>
+                                <span class="project-company">GOOGLE</span>
+                            </div>
+                            <p class="project-description" style="font-weight: 600; color: white;">Developed an immersive 3D visualization system that renders brain activity data, allowing researchers to observe neural patterns in real-time with 94% accuracy.</p>
+                            <div class="project-tech" style="display: flex !important;">
+                                <span>WebGL</span>
+                                <span>TensorFlow.js</span>
+                                <span>React</span>
+                            </div>
+                            <a href="#" class="project-link">VIEW DETAILS</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project Card 2 -->
+                    <div class="project-card" style="display: block !important; visibility: visible !important; opacity: 1 !important;">
+                        <div class="project-image" style="display: block !important;">
+                            <img src="assets/img/project2.jpg" alt="Quantum Encryption Messenger" style="display: block !important; width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="project-content" style="display: block !important;">
+                            <div class="project-header" style="display: flex !important;">
+                                <h3 class="project-title" style="font-weight: 700; color: white;">QUANTUM ENCRYPTION MESSENGER</h3>
+                                <span class="project-company">APPLE</span>
+                            </div>
+                            <p class="project-description" style="font-weight: 600; color: white;">Engineered a secure messaging platform that utilizes quantum key distribution principles, protecting against both conventional and quantum computing attacks.</p>
+                            <div class="project-tech" style="display: flex !important;">
+                                <span>Python</span>
+                                <span>React</span>
+                                <span>Quantum SDK</span>
+                            </div>
+                            <a href="#" class="project-link">VIEW DETAILS</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project Card 3 -->
+                    <div class="project-card" style="display: block !important; visibility: visible !important; opacity: 1 !important;">
+                        <div class="project-image" style="display: block !important;">
+                            <img src="assets/img/project3.jpg" alt="AR Code Architect" style="display: block !important; width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="project-content" style="display: block !important;">
+                            <div class="project-header" style="display: flex !important;">
+                                <h3 class="project-title" style="font-weight: 700; color: white;">AR CODE ARCHITECT</h3>
+                                <span class="project-company">MICROSOFT</span>
+                            </div>
+                            <p class="project-description" style="font-weight: 600; color: white;">Created an augmented reality tool that transforms code repositories into interactive 3D structures, reducing debugging time by 47% for large-scale projects.</p>
+                            <div class="project-tech" style="display: flex !important;">
+                                <span>Unity</span>
+                                <span>C#</span>
+                                <span>AR.js</span>
+                            </div>
+                            <a href="#" class="project-link">VIEW DETAILS</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project Card 4 -->
+                    <div class="project-card" style="display: block !important; visibility: visible !important; opacity: 1 !important;">
+                        <div class="project-image" style="display: block !important;">
+                            <img src="assets/img/project4.jpg" alt="Cyber Threat Visualizer" style="display: block !important; width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="project-content" style="display: block !important;">
+                            <div class="project-header" style="display: flex !important;">
+                                <h3 class="project-title" style="font-weight: 700; color: white;">CYBER THREAT VISUALIZER</h3>
+                                <span class="project-company">DARPA</span>
+                            </div>
+                            <p class="project-description" style="font-weight: 600; color: white;">Designed a network security monitoring system that translates packet data into a real-time visual metaphor, identifying advanced persistent threats with 87% accuracy.</p>
+                            <div class="project-tech" style="display: flex !important;">
+                                <span>D3.js</span>
+                                <span>Python</span>
+                                <span>WebSockets</span>
+                            </div>
+                            <a href="#" class="project-link">VIEW DETAILS</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project Card 5 -->
+                    <div class="project-card" style="display: block !important; visibility: visible !important; opacity: 1 !important;">
+                        <div class="project-image" style="display: block !important;">
+                            <img src="assets/img/project5.jpg" alt="Neurosynth Music Engine" style="display: block !important; width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="project-content" style="display: block !important;">
+                            <div class="project-header" style="display: flex !important;">
+                                <h3 class="project-title" style="font-weight: 700; color: white;">NEUROSYNTH MUSIC ENGINE</h3>
+                                <span class="project-company">SPOTIFY</span>
+                            </div>
+                            <p class="project-description" style="font-weight: 600; color: white;">Built an AI-powered generative music system that creates unique cyberpunk tracks based on neural input and emotional state, with over 10,000 unique compositions created.</p>
+                            <div class="project-tech" style="display: flex !important;">
+                                <span>Web Audio API</span>
+                                <span>TensorFlow</span>
+                                <span>Node.js</span>
+                            </div>
+                            <a href="#" class="project-link">VIEW DETAILS</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project Card 6 -->
+                    <div class="project-card" style="display: block !important; visibility: visible !important; opacity: 1 !important;">
+                        <div class="project-image" style="display: block !important;">
+                            <img src="assets/img/project6.jpg" alt="Nexus Identity Protocol" style="display: block !important; width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="project-content" style="display: block !important;">
+                            <div class="project-header" style="display: flex !important;">
+                                <h3 class="project-title" style="font-weight: 700; color: white;">NEXUS IDENTITY PROTOCOL</h3>
+                                <span class="project-company">ETHEREUM FOUNDATION</span>
+                            </div>
+                            <p class="project-description" style="font-weight: 600; color: white;">Developed a blockchain-based identity management system that allows secure, anonymous verification while maintaining full user control over personal data.</p>
+                            <div class="project-tech" style="display: flex !important;">
+                                <span>Solidity</span>
+                                <span>Ethereum</span>
+                                <span>Web3.js</span>
+                            </div>
+                            <a href="#" class="project-link">VIEW DETAILS</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project Card 7 -->
+                    <div class="project-card" style="display: block !important; visibility: visible !important; opacity: 1 !important;">
+                        <div class="project-image" style="display: block !important;">
+                            <img src="assets/img/project7.jpg" alt="Urban Neural Network" style="display: block !important; width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="project-content" style="display: block !important;">
+                            <div class="project-header" style="display: flex !important;">
+                                <h3 class="project-title" style="font-weight: 700; color: white;">URBAN NEURAL NETWORK</h3>
+                                <span class="project-company">SINGAPORE GOVERNMENT</span>
+                            </div>
+                            <p class="project-description" style="font-weight: 600; color: white;">Created a predictive city management system that optimizes traffic flow, energy usage, and emergency response times using AI and real-time data analytics.</p>
+                            <div class="project-tech" style="display: flex !important;">
+                                <span>Python</span>
+                                <span>TensorFlow</span>
+                                <span>React</span>
+                            </div>
+                            <a href="#" class="project-link">VIEW DETAILS</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project Card 8 -->
+                    <div class="project-card" style="display: block !important; visibility: visible !important; opacity: 1 !important;">
+                        <div class="project-image" style="display: block !important;">
+                            <img src="assets/img/project8.jpg" alt="Neural Home OS" style="display: block !important; width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="project-content" style="display: block !important;">
+                            <div class="project-header" style="display: flex !important;">
+                                <h3 class="project-title" style="font-weight: 700; color: white;">NEURAL HOME OS</h3>
+                                <span class="project-company">SAMSUNG</span>
+                            </div>
+                            <p class="project-description" style="font-weight: 600; color: white;">Architected an advanced home automation system with natural language understanding that adapts to user behavior patterns and optimizes resource usage.</p>
+                            <div class="project-tech" style="display: flex !important;">
+                                <span>Python</span>
+                                <span>NLP</span>
+                                <span>IoT</span>
+                            </div>
+                            <a href="#" class="project-link">VIEW DETAILS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title" data-text="CONTACT">CONTACT</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>CONNECT WITH ME</h3>
+                        <p>Interested in working together or have questions? Reach out through any of the channels below. I'm based in Mangalore.</p>
+                        <div class="contact-links">
+                            <a href="mailto:vinithprabhu2024@gmail.com" class="contact-link">
+                                <i class="fa fa-envelope"></i>
+                                vinithprabhu2024@gmail.com
+                            </a>
+                            <a href="mailto:vinith@gtfcy37qyzor7kb6blz2buwuu5u7qjkycasjdf3yaslibkbyhsxub4yd.onion" class="contact-link">
+                                <img src="assets/img/tor.ico" alt="Tor" style="width: 20px; height: 20px;">
+                                vinith@gtfcy37qyzor7kb6blz2buwuu5u7qjkycasjdf3yaslibkbyhsxub4yd.onion
+                            </a>
+                            <a href="https://www.instagram.com/_.vxnxth.27_" target="_blank" class="contact-link">
+                                <i class="fab fa-instagram"></i>
+                                <span>@_.vxnxth.27_</span>
+                            </a>
+                            <a href="https://x.com/VinithPrabhu_" target="_blank" class="contact-link">
+                                <i class="fab fa-x-twitter"></i>
+                                <span>@VinithPrabhu_</span>
+                            </a>
+                            <a href="http://discordapp.com/users/1071433585564860586" target="_blank" class="contact-link">
+                                <i class="fab fa-discord"></i>
+                                <span>Vinith Prabhu</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required placeholder="NAME">
+                                <div class="form-highlight"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required placeholder="EMAIL">
+                                <div class="form-highlight"></div>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" required placeholder="MESSAGE"></textarea>
+                                <div class="form-highlight"></div>
+                            </div>
+                            <button type="submit" class="btn btn-primary submit-btn">
+                                <span>SEND MESSAGE</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo glitch-text" data-text="VP">VP</div>
+                <div class="footer-text">
+                    <p class="copyright">© <span id="current-year">2025</span> VINTIH PRABHU. CRAFTED WITH CYBERPUNK VIBES. NO TEMPLATES, PURE CODE.</p>
+                    <p class="credits">DESIGNED BY <a href="#" class="credit-link">VARSHITH KARKERA</a></p>
+                </div>
+                <div class="back-to-top">
+                    <a href="#" id="back-to-top-btn">BACK TO TOP <i class="fas fa-arrow-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.11.4/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.11.4/dist/ScrollTrigger.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/matrix.js"></script>
+</body>
+</html> 
